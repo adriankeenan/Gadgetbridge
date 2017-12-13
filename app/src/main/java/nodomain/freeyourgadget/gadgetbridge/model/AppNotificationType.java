@@ -37,6 +37,7 @@ public class AppNotificationType extends HashMap<String, NotificationType> {
         put("com.fsck.k9.material", NotificationType.GENERIC_EMAIL);
         put("com.imaeses.squeaky", NotificationType.GENERIC_EMAIL);
         put("com.android.email", NotificationType.GENERIC_EMAIL);
+        put("com.fastmail.app", NotificationType.GENERIC_EMAIL);
 
         // Generic SMS
         put("com.moez.QKSMS", NotificationType.GENERIC_SMS);
@@ -94,6 +95,9 @@ public class AppNotificationType extends HashMap<String, NotificationType> {
 
         // Skype
         put("com.skype.raider", NotificationType.SKYPE);
+
+        // Discord
+        put("com.discord", NotificationType.GENERIC_SMS);
 
         // Mailbox
         put("com.mailboxapp", NotificationType.MAILBOX);
